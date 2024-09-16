@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="css/font-awesome.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="icon" href="images/favicon.png" />
+    <title>Welcome To Vera</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar-sticky sticky-top">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+          <img src="images/logo.svg" alt="" width="100">
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#solution">Solutions</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#details">Details</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#expertise">Expertise</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#projects">Projects</a>
+            </li>
+            <span class="nav-item">
+              <span class="fa-stack" target="_blank">
+                <a href="#"> 
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-facebook fa-stack-1x text-white"></i>
+                </a>
+              </span>
+              <span class="fa-stack" target="_blank">
+                <a href="#"> 
+                  <i class="fas fa-circle fa-stack-2x"></i>
+                  <i class="fab fa-twitter fa-stack-1x text-white"></i>
+                </a>
+              </span>
+            </span>
+          </ul>
+        </div>
+      </div>
+    </nav>
+<!-- header -->
+
+<header class="header position-relative">
+  <img src="images/vertical-decoration-left.svg" alt="" class="d-none d-md-block vertical-decoration position-absolute">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6 pt-5">
+        <h1 class="xl-text mt-5">
+          Software Solutions For <span class="text-primary fw-bold replace-me">Small Business,Start Ups,Enterprises</span>
+        </h1>
+        <p class="lead">
+          Boost your business with cutting-edge software solutions tailored to needs of modern enterprises
+        </p>
+        <a href="#" class="btn btn-primary text-white">Learn More</a>
+      </div>
+    </div>
+  </div>
+</header>
+<!-- partners -->
+
+<section class="partners py-4 overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 offset-lg-1">
+        <h4 class="text-center mb-4 text-uppercase">
+          Our Partners
+        </h4>
+        <div class="d-flex justify-content-center align-items-center text-center">
+          <div class=" d-sm-block">
+            <img src="images/partner-logo-1.png" alt="" class="mx-5">
+          </div>
+          <div class=" d-sm-block">
+            <img src="images/partner-logo-2.png" alt="" class="mx-5">
+          </div>
+          <div class="d-none d-md-block">
+            <img src="images/partner-logo-3.png" alt="" class="mx-5">
+          </div>
+          <div class="d-none d-lg-block">
+            <img src="images/partner-logo-4.png" alt="" class="mx-5">
+          </div>
+          <div class="d-none d-lg-block">
+            <img src="images/partner-logo-5.png" alt="" class="mx-5">
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- contact form -->
+ <section id="contact" class="contact my-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <h2 class="fw-bold">Get More Information</h2>
+        <hr class="hr-heading">
+        <p class="lead">
+          We provide innovative software solutions that empower businesses to thrive in the digital era.
+        </p>
+        <ul class="list-unstyled lh-lg">
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Customized Solutions:</strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam nostrum magni ut!
+
+            </div>
+          </li>
+          <li class="d-flex align-items-center">
+            <i class="fas fa-check text-primary mx-3"></i>
+            <div>
+              <strong>Seamless Integrations:</strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quisquam nostrum magni ut!
+              
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <form action="">
+          <div class="mb-4">
+            <input type="text" class="form-control bg-secondary" placeholder="Enter Name"/>
+          </div>
+          <div class="mb-4">
+            <input type="Email" class="form-control bg-secondary" placeholder="Enter Email"/>
+          </div>
+          <div class="mb-4">
+            <input type="text" class="form-control bg-secondary" placeholder="Enter Phone Number"/>
+          </div>
+          <div class="mb-4">
+            <select name="interested" id="interested" class="form-control b-secondary">
+              <option >interested In....</option>
+              <option value="erp">ERP Solution</option>
+              <option value="crm">CRM Solution</option>
+              <option value="sfa">SFA Solution</option>
+              <option value="cms">CMS Solution</option>
+            </select>
+          </div>
+          <div class="mb-4 form-check">
+            <input type="checkbox" name="" id="agree-check"/>
+            <label for="agree-check" class="form-check-label">I agree tp terms and conditions <a href="privacy.html">Privacy Policy</a></label>
+          </div>
+          <div class="d-grid gap-2">
+            <input type="submit" value="Submit" class=" btn btn-primary text-white"/>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+ </section>
+ <!-- solutions -->
+  <section id="solutions" class="solutions my-5">
+    <div class="container">
+      <div class="row mb-4">
+        <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+          <h5><span class="badge bg-primary rounded-0 text-uppercase">Solutions</span></h5>
+          <h3 class="fw-bold">
+            Vera Provides Software Solutions For Business Acceleration
+          </h3>
+        </div>
+      </div>
+      <!-- solutions row-1 -->
+       <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card bg-secondary">
+            <img src="images/solution-1.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                ERP solutions
+              </h5>
+              <p class="card-text">Our ERP solutions Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam numquam quos.</p>
+              <div class="badge bg-primary p-2 text-uppercase">
+                Management
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card bg-secondary">
+            <img src="images/solution-2.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                CRM solutions
+              </h5>
+              <p class="card-text">Our CRM solutions Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam numquam quos.</p>
+              <div class="badge bg-dark p-2 text-uppercase">
+                Marketing
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       </div>
+       <!-- solution <row-2></row-2> -->
+       <div class="row">
+        <div class="col-md-6 mb-4">
+          <div class="card bg-secondary">
+            <img src="images/solution-3.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                SFA solutions
+              </h5>
+              <p class="card-text">Our SFA solutions Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam numquam quos.</p>
+              <div class="badge bg-primary p-2 text-uppercase">
+                Management
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 mb-4">
+          <div class="card bg-secondary">
+            <img src="images/solution-4.jpg" alt="" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title fw-bold">
+                CSAsolutions
+              </h5>
+              <p class="card-text">Our CSA solutions Lorem ipsum dolor sit amet consectetur adipisicing elit. Mollitia magnam numquam quos.</p>
+              <div class="badge bg-dark p-2 text-uppercase">
+                Marketing
+              </div>
+            </div>
+          </div>
+        </div>
+        
+       </div>
+    </div>
+  </section>
+  <!-- details1 -->
+   <section id="details" class="details my-5 position-relative">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-lg-6">
+          <h2 class="fw-bold">Evalution & Deployment</h2>
+          <hr class="hr-heading">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minus eligendi, commodi molestiae labore dicta delectus expedita temporibus laudantium quidem.</p>
+          <ul class="list-unstyled">
+            <li class="d-flex align-items-center ">
+              <i class="fas fa-check text-primary mx-3"></i>
+            <div><Strong>Customized Solutions:</Strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, voluptas obcaecati dolores enim tempore quis recusandae maiores libero illum sit.</div>
+          </li>
+            <li class="d-flex align-items-center ">
+              <i class="fas fa-check text-primary mx-3"></i>
+            <div><Strong>Seamless Integrations:</Strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, voluptas obcaecati dolores enim tempore quis recusandae maiores libero illum sit.</div>
+          </li>
+          </ul>
+        </div>
+        <div class="col-lg-6">
+          <img src="images/details-1.jpg" alt="" class="img-fluid rounded-2">
+        </div>
+      </div>
+    </div>
+    <img src="images/vertical-decoration-left.svg" alt="" class="vertical-decoration position-absolute d-none d-md-block">
+   </section>
+   <!-- details2 -->
+   <section id="details" class="details-2 my-5 position-relative">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-lg-6">
+          <img src="images/details-2.jpg" alt="" class="img-fluid rounded-2">
+        </div>
+        <div class="col-lg-6">
+          <h2 class="fw-bold">Maintenance & Support</h2>
+          <hr class="hr-heading">
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure minus eligendi, commodi molestiae labore dicta delectus expedita temporibus laudantium quidem.</p>
+          <ul class="list-unstyled">
+            <li class="d-flex align-items-center ">
+              <i class="fas fa-check text-primary mx-3"></i>
+            <div><Strong>Customized Solutions:</Strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, voluptas obcaecati dolores enim tempore quis recusandae maiores libero illum sit.</div>
+          </li>
+            <li class="d-flex align-items-center ">
+              <i class="fas fa-check text-primary mx-3"></i>
+            <div><Strong>Seamless Integrations:</Strong>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Esse, voluptas obcaecati dolores enim tempore quis recusandae maiores libero illum sit.</div>
+          </li>
+          </ul>
+        </div>
+        
+      </div>
+    </div>
+    <img src="images/vertical-decoration-right.svg" alt="" class="vertical-decoration position-absolute d-none d-md-block">
+   </section>
+   <!-- Expertise -->
+    <section id="expertise" class="expertise bg-secondary py-5 my-6">
+      <div class="container">
+        <div class="row mb-4">
+          <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+           <h5>
+            <span class="badge bg-primary rounded-0 text-uppercase">
+              Expertise
+            </span>
+           </h5>
+           <h2 class="fw-bold">Expertise Strong Points</h2>
+           <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Omnis asperiores voluptate molestiae ullam maiores commodi corporis expedita ex quis qui!</p>
+          </div>
+        </div>
+        <!-- expertise row-1 -->
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-lightbulb fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Flexible Services</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-desktop fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Great Design</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-wifi fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Easy to Use</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card bg-transparent border-0 text-center mb-3">
+              <div class="card-image">
+                <i class="fas fa-cog fa-5x text-primary"></i>
+              </div>
+              <div class="card-body">
+                <h4 class="card-title">Smart options</h4>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+                <!-- expertise row-2 -->
+                <div class="row">
+                  <div class="col-md-3">
+                    <div class="card bg-transparent border-0 text-center mb-3">
+                      <div class="card-image">
+                        <i class="fas fa-glasses fa-5x text-primary"></i>
+                      </div>
+                      <div class="card-body">
+                        <h4 class="card-title">Advanced Tech</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card bg-transparent border-0 text-center mb-3">
+                      <div class="card-image">
+                        <i class="fas fa-graduation-cap fa-5x text-primary"></i>
+                      </div>
+                      <div class="card-body">
+                        <h4 class="card-title">Good Expertise</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card bg-transparent border-0 text-center mb-3">
+                      <div class="card-image">
+                        <i class="fas fa-chart-bar fa-5x text-primary"></i>
+                      </div>
+                      <div class="card-body">
+                        <h4 class="card-title">Detailed Report</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col-md-3">
+                    <div class="card bg-transparent border-0 text-center mb-3">
+                      <div class="card-image">
+                        <i class="fas fa-cloud fa-5x text-primary"></i>
+                      </div>
+                      <div class="card-body">
+                        <h4 class="card-title">Cloud Storage</h4>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+      </div>
+    </section>
+    <!-- <video src=""></video> -->
+     <sections class="video my-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12 d-flex flex-column align-items-center">
+            <div class="position-relative">
+              <img src="images/video-preview.jpg" alt="" class="img-fluid"/>
+              <a class="video-btn" data-bs-toggle="modal" data-bs-target="#video" data-bs-target="modal"
+              data-bs-sor="https://www.youtube.com/watch?v=SConA8nFzEU">
+            <span class="video-play-button"><span></span></span></a>
+            </div>
+          </div>
+        </div>
+        <div class="row video-points px-5 mt-5 mb-5">
+          <div class="col-lg-4">
+            <h4 class="fw-bold">10Year's of Experience</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum incidunt earum odit optio delectus sit soluta maiores consectetur necessitatibus!</p>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold">Enduring Partnerships</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum incidunt earum odit optio delectus sit soluta maiores consectetur necessitatibus!</p>
+          </div>
+          <div class="col-lg-4">
+            <h4 class="fw-bold">Skilled Capable Skills</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iusto dolorum incidunt earum odit optio delectus sit soluta maiores consectetur necessitatibus!</p>
+          </div>
+        </div>
+      </div>
+      <!-- vide0 modal -->
+      <div class="video-modal">
+        <div class="modal bg-white " id="videoModal">
+          <div class="modal-dialog">
+            <div class="modal-content">
+              <div class="ratio ratio-16x9">
+                <iframe frameborder="0" class="embed-responsive-item" id="video"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+     </sections>
+     <!-- Pricing -->
+      <section id="pricing" class="pricing my-5"><div class="container">
+        <div class="row mb-4">
+          <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+           <h5><span class="badge bg-primary rounded-0 text-uppercase">Pricing</span></h5>
+           <h2 class="fw-bold">Flexible Pricing</h2>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <!-- <pricing-1></pricing-1> -->
+           <div class="col-md-3">
+            <div class="card bg-secondary text-center rounded-0">
+              <div class="card-body">
+                <div class="xl-text fw-bold">$99</div>
+                <h4 class="card-title text-primary text-uppercase fw-bold mb-5">Standard</h4>
+                <p>Our standard pricing plan offers Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <ul class="list-unstyled lh-lg mt-5">
+                  <li class="text-uppercase fs-5 fw-bold">Subscribers List</li>
+                  <li class="text-uppercase fs-5 fw-bold">User admin Control</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-center mt-5">Inquire</a>
+              </div>
+            </div>
+           </div>
+           <!-- <pricing-2></pricing-2> -->
+           <div class="col-md-3">
+            <div class="card bg-secondary text-center rounded-0">
+              <div class="card-body">
+                <div class="xl-text fw-bold">$199</div>
+                <h4 class="card-title text-primary text-uppercase fw-bold mb-5">Advanced</h4>
+                <p>Our Advanced pricing plan offers Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <ul class="list-unstyled lh-lg mt-5">
+                  <li class="text-uppercase fs-5 fw-bold">Limited storaage Space</li>
+                  <li class="text-uppercase fs-5 fw-bold">Cloud storage</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-center mt-5">Inquire</a>
+              </div>
+            </div>
+           </div>
+           <!-- <pricing-3></pricing-3> -->
+           <div class="col-md-3">
+            <div class="card bg-secondary text-center rounded-0">
+              <div class="card-body">
+                <div class="xl-text fw-bold">$299</div>
+                <h4 class="card-title text-primary text-uppercase fw-bold mb-5">Complete</h4>
+                <p>Our Complete pricing plan offers Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                <ul class="list-unstyled lh-lg mt-5">
+                  <li class="text-uppercase fs-5 fw-bold">Deployment protocole</li>
+                  <li class="text-uppercase fs-5 fw-bold">Premimum Support plan</li>
+                </ul>
+                <a href="#contact" class="btn btn-primary text-center mt-5">Inquire</a>
+              </div>
+            </div>
+           </div>
+        </div>
+      </div></section>
+      <!-- Projects -->
+       <section id="projects" class="projects my-5">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+              <h5><span class="badge bg-primary rounded-0 text-uppercase">Projects</span></h5>
+              <h2 class="fw-bold">Projects We Are Proud Off</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perspiciatis architecto, tempora quasi delectus qui rerum.</p>
+
+            </div>
+          </div>
+          <!-- projects row-1 -->
+           <div class="row">
+            <div class="col-md-4 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal1">
+                  <img src="images/project-1.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <p><Strong>Orkla Foods</Strong>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ad earum dolores?</p>
+
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal2">
+                  <img src="images/project-2.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <p><Strong>First Bank</Strong>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ad earum dolores?</p>
+
+                  </div>
+                </a>
+              </div>
+            </div>
+            <div class="col-md-4 mb-4">
+              <div class="card bg-secondary">
+                <a data-bs-toggle="modal" data-bs-target="#modal3">
+                  <img src="images/project-3.jpg" alt="" class="card-img-top">
+                  <div class="card-body">
+                    <p><Strong>All Sweets</Strong>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ad earum dolores?</p>
+
+                  </div>
+                </a>
+              </div>
+            </div>
+           </div>
+            <!-- projects row-2 -->
+            <div class="row">
+              <div class="col-md-4 mb-4">
+                <div class="card bg-secondary">
+                  <a data-bs-toggle="modal" data-bs-target="#modal4">
+                    <img src="images/project-4.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                      <p><Strong>Fast Couriers</Strong>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ad earum dolores?</p>
+  
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card bg-secondary">
+                  <a data-bs-toggle="modal" data-bs-target="#modal5">
+                    <img src="images/project-5.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                      <p><Strong>Lyra market</Strong>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ad earum dolores?</p>
+  
+                    </div>
+                  </a>
+                </div>
+              </div>
+              <div class="col-md-4 mb-4">
+                <div class="card bg-secondary">
+                  <a data-bs-toggle="modal" data-bs-target="#modal6">
+                    <img src="images/project-6.jpg" alt="" class="card-img-top">
+                    <div class="card-body">
+                      <p><Strong>Money store</Strong>- Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laudantium ad earum dolores?</p>
+  
+                    </div>
+                  </a>
+                </div>
+              </div>
+             </div>
+           
+        </div>
+       </section>
+       <!-- projects modals -->
+        <div class="project-modals">
+          <!-- <modal-1></modal-1> -->
+           <div class="modal fade" id="modal1">
+            <div class="modal-dialog modal-lg mt-5">
+              <div class="modal-content bg-secondary p-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="images/project-1.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-md-6 mt-2">
+                    <h3>Orkla Foods</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt libero labore voluptas repellendus inventore est iure optio sint blanditiis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur ut nisi praesentium atque tenetur!</p>
+                    <a href="#" class="btn btn-primary text-white">Details</a>
+                    <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+           <!-- modal-2 -->
+           <div class="modal fade" id="modal2">
+            <div class="modal-dialog modal-lg mt-5">
+              <div class="modal-content bg-secondary p-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="images/project-2.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-md-6 mt-2">
+                    <h3>First Bank</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt libero labore voluptas repellendus inventore est iure optio sint blanditiis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur ut nisi praesentium atque tenetur!</p>
+                    <a href="#" class="btn btn-primary text-white">Details</a>
+                    <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+           <!-- modal-3 -->
+           <div class="modal fade" id="modal3">
+            <div class="modal-dialog modal-lg mt-5">
+              <div class="modal-content bg-secondary p-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="images/project-3.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-md-6 mt-2">
+                    <h3>All Sweets</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt libero labore voluptas repellendus inventore est iure optio sint blanditiis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur ut nisi praesentium atque tenetur!</p>
+                    <a href="#" class="btn btn-primary text-white">Details</a>
+                    <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+           <!-- modal-4 -->
+           <div class="modal fade" id="modal4">
+            <div class="modal-dialog modal-lg mt-5">
+              <div class="modal-content bg-secondary p-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="images/project-4.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-md-6 mt-2">
+                    <h3>Fast Couriers</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt libero labore voluptas repellendus inventore est iure optio sint blanditiis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur ut nisi praesentium atque tenetur!</p>
+                    <a href="#" class="btn btn-primary text-white">Details</a>
+                    <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+           <!-- modal-5 -->
+           <div class="modal fade" id="modal5">
+            <div class="modal-dialog modal-lg mt-5">
+              <div class="modal-content bg-secondary p-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="images/project-5.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-md-6 mt-2">
+                    <h3>Lyra Market</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt libero labore voluptas repellendus inventore est iure optio sint blanditiis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur ut nisi praesentium atque tenetur!</p>
+                    <a href="#" class="btn btn-primary text-white">Details</a>
+                    <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+           <!-- modal-6 -->
+           <div class="modal fade" id="modal6">
+            <div class="modal-dialog modal-lg mt-5">
+              <div class="modal-content bg-secondary p-5">
+                <div class="row">
+                  <div class="col-md-6">
+                    <img src="images/project-6.jpg" alt="" class="img-fluid">
+                  </div>
+                  <div class="col-md-6 mt-2">
+                    <h3>Money Store</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas nesciunt libero labore voluptas repellendus inventore est iure optio sint blanditiis!</p>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore pariatur ut nisi praesentium atque tenetur!</p>
+                    <a href="#" class="btn btn-primary text-white">Details</a>
+                    <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+           </div>
+        </div>
+     <!-- News Letter -->
+      <section id="newsletter" class="newsLetter my-5">
+        <div class="container">
+          <div class="row mb-4">
+            <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+              <h2 class="fw-bold">Subscribe And Follow</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Assumenda earum porro optio.</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 offset-md-3 d-flex flex-column align-items-center text-center">
+              <div class="input-group mb-3">
+                <input type="email" name="" placeholder="Enter Email" id="" class="form-control">
+                <button class="btn btn-primary text-white rounded-0">Submit</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- <footer></footer> -->
+     <footer class="footer bg-secondary py-6">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 my-3">
+            <h6>About Vera</h6>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam culpa sapiente, molestiae illo cum a odit perspiciatis facere tempore tempora?</p>
+
+          </div>
+          <div class="col-md-4 my-3">
+            <h6>Links</h6>
+            <ul class="list-unstyled">
+              <li>Important: <a href="#">Terms and Conditions</a>
+              <a href="#">Privacy Policy</a></li>
+              <li>Useful: <a href="#">Expertise</a>
+                <a href="#">Newsletter</a></li>
+                <li>Menu: <a href="#home">Home</a>
+                  <a href="#details">Details</a>
+                  <a href="#solutions">Solutions</a>
+                  <a href="#Projects">Projects</a>
+                </li>
+            </ul>
+          </div>
+          <div class="col-md-4 my-3">
+            <div class="mb-4">
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-facebook fa-3x text-light mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-twitter fa-3x text-light mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-instagram fa-3x text-light mx-2"></i>
+              </a>
+              <a href="#" class="text-decoration-none">
+                <i class="fab fa-pinterest fa-3x text-light mx-2"></i>
+              </a>
+            </div>
+            <p>We Would love to hear from you 
+              <a href="mailto:meesala3438@gmail.com"><strong>meesala3438@gmail.com</strong></a>
+            </p>
+          </div>
+        </div>
+      </div>
+     </footer>
+    <script src="js/replaceme.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
